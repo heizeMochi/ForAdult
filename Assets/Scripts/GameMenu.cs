@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class GameMenu : MonoBehaviour
 {
+    [SerializeField]
+    Fade fade;
+
     private void Start()
     {
         Managers.Sound.BGMPlay("GameMenu", 0.2f);
@@ -12,6 +15,7 @@ public class GameMenu : MonoBehaviour
 
     public void GameStart()
     {
-        SceneManager.LoadScene("Investigate");
+        fade.gameObject.SetActive(true);
+        fade.SceneName = "Investigate";
     }
 }
