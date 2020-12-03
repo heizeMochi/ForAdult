@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GameManager
 {
-    int actionCount = 3;
-    int findAction = 0;
+    public int actionCount = 3;
+    public int findAction = 0;
 
     public void Init()
     {

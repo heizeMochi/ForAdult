@@ -13,6 +13,7 @@ public class Fade : MonoBehaviour
     private void Awake()
     {
         spr = this.GetComponent<SpriteRenderer>();
+        DontDestroyOnLoad(gameObject);
     }
 
     private void OnEnable()
@@ -35,6 +36,8 @@ public class Fade : MonoBehaviour
                 break;
             case Define.Fade.FadeOUT:
                 spr.color = new Color(0, 0, 0, spr.color.a - 0.5f * Time.deltaTime);
+                if(spr.color.a <= 0.01f)
+                    gameObject.SetActive(false);
                 break;
         }
     }

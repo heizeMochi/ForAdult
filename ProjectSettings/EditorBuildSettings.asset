@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Investigate.unity
     guid: 321bfd28a53b38e4fb2d140ce0bb4dc6
+  - enabled: 1
+    path: Assets/Scenes/TakeOut.unity
+    guid: a6fb16e449891cb47952cb11490a22c8
   m_configObjects: {}
