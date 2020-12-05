@@ -4,21 +4,18 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class UIClick : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
+public class UIClick : MonoBehaviour,IPointerClickHandler
 {
     static GameObject btn;
+    [SerializeField]
+    GameObject textObj;
 
     Image img;
-    [SerializeField]
-    Sprite enterImg;
-
-    Sprite defaultImg;
 
     private void Start()
     {
         btn = GameObject.Find("Canvas").transform.Find("Present").gameObject;
         img = GetComponent<Image>();
-        defaultImg = img.sprite;
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -27,17 +24,7 @@ public class UIClick : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
         if(!btn.activeSelf)
         {
             btn.SetActive(true);
+            textObj.SetActive(true);
         }
-    }
-
-    public void OnPointerEnter(PointerEventData eventData)
-    {
-        Debug.Log(gameObject.name);
-        img.sprite = enterImg;
-    }
-
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        img.sprite = defaultImg;
     }
 }
