@@ -1,7 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - CameraController
+    - CameraResolution
     - Fade
     - GameMenu
     - SceneChange
@@ -54,23 +54,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11820}
     - Class: 114
-      Script: {instanceID: 12128}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 12182}
+      Script: {instanceID: 12188}
     - Class: 114
-      Script: {instanceID: 12896}
+      Script: {instanceID: 12918}
     - Class: 114
-      Script: {instanceID: 13398}
+      Script: {instanceID: 13430}
     - Class: 114
-      Script: {instanceID: 13436}
+      Script: {instanceID: 13470}
     - Class: 114
-      Script: {instanceID: 13676}
+      Script: {instanceID: 13724}
     - Class: 114
-      Script: {instanceID: 14496}
+      Script: {instanceID: 14562}
     - Class: 114
-      Script: {instanceID: 15134}
+      Script: {instanceID: 14658}
     - Class: 114
-      Script: {instanceID: 19084}
+      Script: {instanceID: 15224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -111,23 +111,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11850}
     - Class: 114
-      Script: {instanceID: 12128}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 12182}
+      Script: {instanceID: 12188}
     - Class: 114
-      Script: {instanceID: 12896}
+      Script: {instanceID: 12900}
     - Class: 114
-      Script: {instanceID: 13676}
+      Script: {instanceID: 12918}
     - Class: 114
-      Script: {instanceID: 14496}
+      Script: {instanceID: 13724}
     - Class: 114
-      Script: {instanceID: 14666}
+      Script: {instanceID: 14562}
     - Class: 114
-      Script: {instanceID: 15134}
+      Script: {instanceID: 14658}
     - Class: 114
-      Script: {instanceID: 19084}
+      Script: {instanceID: 14740}
     - Class: 114
-      Script: {instanceID: 22434}
+      Script: {instanceID: 15224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -362,6 +362,12 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: 8fd3a9f65b49498f17808cfa8781caca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Textboard
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -560,6 +566,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraResolution
+  - hash:
+      serializedVersion: 2
       Hash: c31a64a8860495cc3dd1b44649758a9d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -672,21 +684,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraController
-  - hash:
-      serializedVersion: 2
-      Hash: 8fd3a9f65b49498f17808cfa8781caca
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Textboard
   platform: 13
   scenePathNames:
   - Assets/Scenes/GameStart.unity
   - Assets/Scenes/Investigate.unity
   - Assets/Scenes/TakeOut.unity
-  playerPath: C:/Users/USER/Downloads/99.apk
+  playerPath: C:/Users/USER/Downloads/999.apk
