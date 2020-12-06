@@ -312,6 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d71862d5d8ff5340b709c528840c5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  present: 0
   textObj: {fileID: 0}
 --- !u!1 &251204115
 GameObject:
@@ -401,6 +402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d71862d5d8ff5340b709c528840c5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  present: 0
   textObj: {fileID: 1528016307}
 --- !u!1 &388644854
 GameObject:
@@ -490,6 +492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d71862d5d8ff5340b709c528840c5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  present: 0
   textObj: {fileID: 0}
 --- !u!1 &449183937
 GameObject:
@@ -579,6 +582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d71862d5d8ff5340b709c528840c5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  present: 0
   textObj: {fileID: 0}
 --- !u!1 &639587227
 GameObject:
@@ -768,6 +772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d71862d5d8ff5340b709c528840c5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  present: 0
   textObj: {fileID: 1528016307}
 --- !u!1 &931052754
 GameObject:
@@ -857,6 +862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d71862d5d8ff5340b709c528840c5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  present: 0
   textObj: {fileID: 1528016307}
 --- !u!1 &974146412
 GameObject:
@@ -1247,6 +1253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d71862d5d8ff5340b709c528840c5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  present: 1
   textObj: {fileID: 1528016307}
 --- !u!1 &1463632711
 GameObject:
@@ -1336,6 +1343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d71862d5d8ff5340b709c528840c5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  present: 0
   textObj: {fileID: 0}
 --- !u!1 &1528016307
 GameObject:
@@ -1517,6 +1525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d71862d5d8ff5340b709c528840c5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  present: 1
   textObj: {fileID: 1528016307}
 --- !u!1 &1666740718
 GameObject:

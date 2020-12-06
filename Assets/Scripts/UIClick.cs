@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -7,6 +8,8 @@ using UnityEngine.UI;
 public class UIClick : MonoBehaviour,IPointerClickHandler
 {
     static GameObject btn;
+    [SerializeField]
+    bool present;
     [SerializeField]
     GameObject textObj;
 
@@ -20,7 +23,9 @@ public class UIClick : MonoBehaviour,IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Managers.Game.findAction++;
+        if (!present)
+            return;
+        Managers.Game.FindPresent((Define.Present)Enum.Parse(typeof(Define.Present), gameObject.name));
         if(!btn.activeSelf)
         {
             btn.SetActive(true);
