@@ -12,6 +12,9 @@ public class Managers : MonoBehaviour
 
     GameManager game = new GameManager();
     public static GameManager Game { get { return Instance.game; } }
+
+    TalkManager talk = new TalkManager();
+    public static TalkManager Talk { get { Instance.talk.Init();  return Instance.talk; } }
     
     static void Init()
     {
@@ -28,5 +31,12 @@ public class Managers : MonoBehaviour
             s_instance.sound.Init();
             s_instance.game.Init();
         }
+    }
+
+    public void TalkInit(TalkManager mng)
+    {
+        talk = mng;
+        Debug.Log(mng);
+        Debug.Log(talk);
     }
 }
