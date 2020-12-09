@@ -20,5 +20,10 @@ public class GameManager
             return;
         presents.Add(present);
         findAction++;
+
+        for (int i = 0; i < presents.Count; i++)
+        {
+            Debug.Log(presents[i]);
+        }
     }
 }

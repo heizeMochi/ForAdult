@@ -11,6 +11,7 @@ public class Define
     }
     public enum Present
     {
+        NONE,
         Beg,
         Bed,
     }

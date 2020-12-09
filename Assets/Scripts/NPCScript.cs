@@ -9,6 +9,8 @@ public class NPCScript : MonoBehaviour
     public List<bool> b_presents = new List<bool>();
     public List<string> chats = new List<string>();
     public string chat;
+    [SerializeField]
+    GameObject scenechange;
 
     private void Start()
     {
@@ -35,8 +37,36 @@ public class NPCScript : MonoBehaviour
                     {
                         b_presents[i] = false;
                         Managers.Game.FindPresent(presents[i]);
+                        scenechange.SetActive(true);
                     }
                 }
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Space)){
+            Animator anim = GetComponent<Animator>();
+            anim.SetTrigger("Beg");
+        }
+
+    }
+
+    public void BegTrue()
+    {
+        for (int i = 0; i < presents.Length; i++)
+        {
+            if (presents[i] == Define.Present.Beg)
+            {
+                b_presents[i] = true;
+            }
+        }
+    }
+
+    public void BegFalse()
+    {
+        for (int i = 0; i < presents.Length; i++)
+        {
+            if (presents[i] == Define.Present.Beg)
+            {
+                b_presents[i] = false;
             }
         }
     }
