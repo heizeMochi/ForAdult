@@ -36,7 +36,7 @@ public class NPCScript : MonoBehaviour
                     if (b_presents[i])
                     {
                         b_presents[i] = false;
-                        Managers.Game.FindPresent(presents[i]);
+                        Managers.Game.FindPresent(presents[i], npcName);
                         scenechange.SetActive(true);
                     }
                 }

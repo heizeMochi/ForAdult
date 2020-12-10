@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GameManager
 {
+    public Define.Present Present = Define.Present.NONE;
+    public string NPCName = "";
+
     public List<Define.Present> presents = new List<Define.Present>();
     public int actionCount = 3;
     public int findAction = 0;
@@ -14,10 +17,11 @@ public class GameManager
         findAction = 0;
     }
 
-    public void FindPresent(Define.Present present)
+    public void FindPresent(Define.Present present, string name)
     {
         if (presents.Contains(present))
             return;
+        NPCName = name;
         presents.Add(present);
         findAction++;
 
