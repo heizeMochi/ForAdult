@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PresentClick : MonoBehaviour
 {
+    public string name;
     public string chat;
     public GameObject GoTakeOut;
 
@@ -23,7 +24,7 @@ public class PresentClick : MonoBehaviour
                 return;
             if (hit.collider.gameObject == gameObject)
             {
-                Managers.Game.FindPresent((Define.Present)Enum.Parse(typeof(Define.Present), gameObject.name), gameObject.name);
+                Managers.Game.FindPresent((Define.Present)Enum.Parse(typeof(Define.Present), gameObject.name), name);
                 Managers.Talk.Talk(gameObject.name, chat);
                 GoTakeOut.SetActive(true);
             }
