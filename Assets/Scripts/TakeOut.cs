@@ -18,6 +18,22 @@ public class TakeOut : MonoBehaviour
             gos[i].SetActive(true);
             SelectPresent sp = gos[i].GetComponent<SelectPresent>();
             sp.present = Managers.Game.presents[i];
+            sp.name = NameInit(sp.present);
         }
+    }
+
+    string NameInit(Define.Present present)
+    {
+        string name = "";
+        switch (present)
+        {
+            case Define.Present.Beg:
+                name = "새 가방";
+                break;
+            case Define.Present.Bed:
+                name = "침대";
+                break;
+        }
+        return name;
     }
 }

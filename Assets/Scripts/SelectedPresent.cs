@@ -9,6 +9,7 @@ public class SelectedPresent : MonoBehaviour
     Button yesBtn;
     Button noBtn;
 
+    public string presentName = "";
     public Define.Present present = Define.Present.NONE;
 
     private void Awake()
@@ -20,7 +21,7 @@ public class SelectedPresent : MonoBehaviour
 
     private void OnEnable()
     {
-        text.text = $"{present}를 선물로 선택하시겠습니까?";
+        text.text = $"{presentName} 을(를) 선물로 선택하시겠습니까?";
         yesBtn.onClick.RemoveAllListeners();
         noBtn.onClick.RemoveAllListeners();
         yesBtn.onClick.AddListener(YesButton);
