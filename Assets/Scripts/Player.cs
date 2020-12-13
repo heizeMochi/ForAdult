@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField]
+    GameObject In, Out;
     public bool cling = false;
     public Rigidbody2D rigid;
 
@@ -12,29 +14,32 @@ public class Player : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
     }
 
+    private void Update()
+    {
+        if (cling)
+        {
+            In.SetActive(false);
+            Out.SetActive(true);
+        }else if (!cling)
+        {
+            In.SetActive(true);
+            Out.SetActive(false);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Ladder"))
+        if (collision.gameObject == In)
         {
-            Debug.Log("들어옴");
             cling = true;
-            rigid.velocity = Vector2.zero;
             rigid.gravityScale = 0;
         }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ladder"))
+        else if (collision.gameObject == Out)
         {
-            Debug.Log("나감");
             cling = false;
-            rigid.gravityScale = 8;
+            rigid.gravityScale = 4f;
         }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        cling = false;
+        else
+            rigid.gravityScale = 8f;
     }
 }
