@@ -7,6 +7,8 @@ public class TalkManager : MonoBehaviour
 {
     bool talk = false;
 
+    Button btn;
+
     GameObject background;
     Text name, context;
 
@@ -20,12 +22,14 @@ public class TalkManager : MonoBehaviour
         Managers.Instance.TalkInit(tm);
         name = background.transform.Find("NameText").GetComponent<Text>();
         context = background.transform.Find("Text").GetComponent<Text>();
+        btn = background.transform.Find("NextBtn").GetComponent<Button>();
     }
 
     public void Talk(string _name, string _context)
     {
         if (background == null)
             Init();
+        background.SetActive(true);
         StartCoroutine(TalkCoroutine(_name, _context));
     }
 
@@ -77,8 +81,13 @@ public class TalkManager : MonoBehaviour
             context.text += ch[i];
             yield return new WaitForSeconds(0.1f);
         }
-
+        btn.onClick.RemoveAllListeners();
+        btn.onClick.AddListener(CloseText);
         yield return null;
     }
 
+    public void CloseText()
+    {
+        background.SetActive(false);
+    }
 }
