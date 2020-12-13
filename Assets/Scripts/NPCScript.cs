@@ -5,8 +5,7 @@ using UnityEngine;
 public class NPCScript : MonoBehaviour
 {
     public string npcName;
-    public Define.Present[] presents;
-    public List<bool> b_presents = new List<bool>();
+    public GameObject[] PresentList;
     public List<string> chats = new List<string>();
     public string chat;
     [SerializeField]
@@ -14,60 +13,16 @@ public class NPCScript : MonoBehaviour
 
     private void Start()
     {
-        for (int i = 0; i < presents.Length; i++)
-        {
-            b_presents.Add(new bool());
-        }
+        if (Managers.Game.Present != Define.Present.NONE)
+            gameObject.SetActive(false);
     }
 
-    private void Update()
+    public void BegInstantiate()
     {
-        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero, 0f);
-
-        if (Input.GetMouseButtonDown(0))
+        for (int i = 0; i < PresentList.Length; i++)
         {
-            if (hit.collider == null)
-                return;
-            if (hit.collider.gameObject == gameObject)
-            {
-                for (int i = 0; i < b_presents.Count; i++)
-                {
-                    if (b_presents[i])
-                    {
-                        b_presents[i] = false;
-                        Managers.Game.FindPresent(presents[i], npcName);
-                        scenechange.SetActive(true);
-                    }
-                }
-            }
-        }
-        if (Input.GetKeyDown(KeyCode.Space)){
-            Animator anim = GetComponent<Animator>();
-            anim.SetTrigger("Beg");
-        }
-
-    }
-
-    public void BegTrue()
-    {
-        for (int i = 0; i < presents.Length; i++)
-        {
-            if (presents[i] == Define.Present.Beg)
-            {
-                b_presents[i] = true;
-            }
-        }
-    }
-
-    public void BegFalse()
-    {
-        for (int i = 0; i < presents.Length; i++)
-        {
-            if (presents[i] == Define.Present.Beg)
-            {
-                b_presents[i] = false;
-            }
+            if (PresentList[i].gameObject.name == "Beg")
+                PresentList[i].SetActive(true);
         }
     }
 }
