@@ -1,226 +1,127 @@
 fileFormatVersion: 2
-guid: f4066ea8975e31b47a6b890279fcb0cf
+guid: 3af192b6164d9954593d22eaa4618e4c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5971807759377654739
-    second: _oom1_S1NPC_0
+      213: -1953206948461942844
+    second: Room1_NPC_0
   - first:
-      213: 2300541136110390050
-    second: _oom1_S1NPC_1
+      213: -4323871405903053584
+    second: Room1_NPC_1
   - first:
-      213: 3716166355463813120
-    second: _oom1_S1NPC_2
+      213: -7636078311720229685
+    second: Room1_NPC_2
   - first:
-      213: -1819471498425813641
-    second: _oom1_S1NPC_3
+      213: -5939234784905862862
+    second: Room1_NPC_3
   - first:
-      213: -4501867546657539337
-    second: _oom1_S1NPC_4
+      213: -1843605817581844984
+    second: Room1_NPC_4
   - first:
-      213: 7238063129913722940
-    second: _oom1_S1NPC_5
+      213: 1390551758397758348
+    second: Room1_NPC_5
   - first:
-      213: -6338947796421585215
-    second: _oom1_S1NPC_6
+      213: -7952598923327523650
+    second: Room1_NPC_6
   - first:
-      213: -3309596377159677943
-    second: _oom1_S1NPC_7
+      213: 4771841841223789394
+    second: Room1_NPC_7
   - first:
-      213: -6829833322871673448
-    second: _oom1_S1NPC_8
+      213: 2174163339629280997
+    second: Room1_NPC_8
   - first:
-      213: 3340952047559831965
-    second: _oom1_S1NPC_9
+      213: 8595292967133970293
+    second: Room1_NPC_9
   - first:
-      213: -4722715487320342321
-    second: _oom1_S1NPC_10
+      213: 3015205113244159387
+    second: Room1_NPC_10
   - first:
-      213: -7192212016979774256
-    second: _oom1_S1NPC_11
+      213: 6890888134351737592
+    second: Room1_NPC_11
   - first:
-      213: 2050521621850686129
-    second: _oom1_S1NPC_12
+      213: -4460315123563446222
+    second: Room1_NPC_12
   - first:
-      213: 3203115421562654574
-    second: _oom1_S1NPC_13
+      213: 2008608965141955697
+    second: Room1_NPC_13
   - first:
-      213: -1002304555499042717
-    second: _oom1_S1NPC_14
+      213: -5994282459179156878
+    second: Room1_NPC_14
   - first:
-      213: 3525620812699526595
-    second: _oom1_S1NPC_15
+      213: 564026042102416879
+    second: Room1_NPC_15
   - first:
-      213: -3310183684470976870
-    second: _oom1_S1NPC_16
+      213: -8465086969027740751
+    second: Room1_NPC_16
   - first:
-      213: -3952516449108215758
-    second: _oom1_S1NPC_17
+      213: 2691884182489308257
+    second: Room1_NPC_17
   - first:
-      213: -8569606330235967493
-    second: _oom1_S1NPC_18
+      213: -4237864221549160394
+    second: Room1_NPC_18
   - first:
-      213: -4957211836018912339
-    second: _oom1_S1NPC_19
+      213: 4065634449964809523
+    second: Room1_NPC_19
   - first:
-      213: 8370610586677085198
-    second: _oom1_S1NPC_20
+      213: -1710016972985414929
+    second: Room1_NPC_20
   - first:
-      213: -2117798033580343060
-    second: _oom1_S1NPC_21
+      213: -6025229809188134935
+    second: Room1_NPC_21
   - first:
-      213: -3612124426250176153
-    second: _oom1_S1NPC_22
+      213: 497477753769081080
+    second: Room1_NPC_22
   - first:
-      213: -2493334525949524625
-    second: _oom1_S1NPC_23
+      213: -3138774035411955625
+    second: Room1_NPC_23
   - first:
-      213: -1727340710062002588
-    second: _oom1_S1NPC_24
+      213: 4555895216018660275
+    second: Room1_NPC_24
   - first:
-      213: -1888563407191463222
-    second: _oom1_S1NPC_25
+      213: -6340544716170165816
+    second: Room1_NPC_25
   - first:
-      213: -7945884402344971206
-    second: _oom1_S1NPC_26
+      213: -2107413526254916570
+    second: Room1_NPC_26
   - first:
-      213: 854028425047505269
-    second: _oom1_S1NPC_27
+      213: 820404730100302160
+    second: Room1_NPC_27
   - first:
-      213: 1106418811204431452
-    second: _oom1_S1NPC_28
+      213: 3420910611019868069
+    second: Room1_NPC_28
   - first:
-      213: 3332654360691784181
-    second: _oom1_S1NPC_29
+      213: 3473559519132695953
+    second: Room1_NPC_29
   - first:
-      213: -1900093117130339739
-    second: _oom1_S1NPC_30
+      213: -633231739981107273
+    second: Room1_NPC_30
   - first:
-      213: 7681582181843938083
-    second: _oom1_S1NPC_31
+      213: -2151585780973446938
+    second: Room1_NPC_31
   - first:
-      213: 4854194302964454548
-    second: _oom1_S1NPC_32
+      213: 8279787643475848269
+    second: Room1_NPC_32
   - first:
-      213: 9187867352386442116
-    second: _oom1_S1NPC_33
+      213: -51093147178740398
+    second: Room1_NPC_33
   - first:
-      213: -6518616444818768133
-    second: _oom1_S1NPC_34
+      213: -6650897187055691432
+    second: Room1_NPC_34
   - first:
-      213: 6766175293239855269
-    second: _oom1_S1NPC_35
+      213: -2023789082224993795
+    second: Room1_NPC_35
   - first:
-      213: -1540969119204546852
-    second: _oom1_S1NPC_36
+      213: 4041298815750793781
+    second: Room1_NPC_36
   - first:
-      213: 4228947874149263950
-    second: _oom1_S1NPC_37
+      213: 9194282247578611737
+    second: Room1_NPC_37
   - first:
-      213: 3069124517353772928
-    second: _oom1_S1NPC_38
+      213: 5987781710785797156
+    second: Room1_NPC_38
   - first:
-      213: 8487688018937181990
-    second: _oom1_S1NPC_39
-  - first:
-      213: 377457207863648308
-    second: _oom1_S1NPC_0
-  - first:
-      213: -1656092137664999227
-    second: _oom1_S1NPC_1
-  - first:
-      213: 5740474636110540041
-    second: _oom1_S1NPC_2
-  - first:
-      213: -3966797851000498992
-    second: _oom1_S1NPC_3
-  - first:
-      213: -3306295071391117529
-    second: _oom1_S1NPC_4
-  - first:
-      213: -8208493957385675532
-    second: _oom1_S1NPC_5
-  - first:
-      213: 4073558027051978661
-    second: _oom1_S1NPC_6
-  - first:
-      213: 7938099697531360746
-    second: _oom1_S1NPC_7
-  - first:
-      213: 8358976373197388505
-    second: _oom1_S1NPC_8
-  - first:
-      213: 5645387900529299541
-    second: _oom1_S1NPC_9
-  - first:
-      213: 7983091117625096688
-    second: _oom1_S1NPC_10
-  - first:
-      213: 4591488180287304843
-    second: _oom1_S1NPC_11
-  - first:
-      213: 1217735708603011524
-    second: _oom1_S1NPC_12
-  - first:
-      213: -8337278732922275991
-    second: _oom1_S1NPC_13
-  - first:
-      213: 4806622302454968551
-    second: _oom1_S1NPC_14
-  - first:
-      213: 2813055101486503484
-    second: _oom1_S1NPC_15
-  - first:
-      213: 8070184310198675265
-    second: _oom1_S1NPC_16
-  - first:
-      213: -7319185372603613770
-    second: _oom1_S1NPC_17
-  - first:
-      213: 1331682976573268981
-    second: _oom1_S1NPC_18
-  - first:
-      213: 8924542239803833708
-    second: _oom1_S1NPC_19
-  - first:
-      213: 7106539030126749697
-    second: _oom1_S1NPC_20
-  - first:
-      213: 3295104863985655057
-    second: _oom1_S1NPC_21
-  - first:
-      213: 4993015088314747546
-    second: _oom1_S1NPC_22
-  - first:
-      213: 7988023241950344802
-    second: _oom1_S1NPC_23
-  - first:
-      213: 7262340716523791660
-    second: _oom1_S1NPC_24
-  - first:
-      213: 3368490538824705611
-    second: _oom1_S1NPC_25
-  - first:
-      213: 6304829968384963162
-    second: _oom1_S1NPC_26
-  - first:
-      213: -8307379675868022461
-    second: _oom1_S1NPC_27
-  - first:
-      213: 8493590395367277949
-    second: _oom1_S1NPC_28
-  - first:
-      213: -2023498067559871498
-    second: _oom1_S1NPC_29
-  - first:
-      213: -1051154622636396193
-    second: _oom1_S1NPC_30
-  - first:
-      213: -2474262721117336414
-    second: _oom1_S1NPC_31
-  - first:
-      213: -6141615279510930868
-    second: _oom1_S1NPC_32
+      213: 532656894277797037
+    second: Room1_NPC_39
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -262,10 +163,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 26
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -282,10 +183,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -294,10 +195,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -306,10 +207,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -320,694 +221,694 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: _oom1_S1NPC_0
+      name: Room1_NPC_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 536
-        width: 300
-        height: 134
+        y: 1076
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 430af98a45ffc3500800000000000000
-      internalID: 377457207863648308
+      spriteID: 4c7e91001a0d4e4e0800000000000000
+      internalID: -1953206948461942844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_1
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 536
-        width: 300
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c01923a9f06409e0800000000000000
-      internalID: -1656092137664999227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _oom1_S1NPC_2
+      name: Room1_NPC_1
       rect:
         serializedVersion: 2
         x: 600
-        y: 536
-        width: 300
-        height: 134
+        y: 1076
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90d228764434aaf40800000000000000
-      internalID: 5740474636110540041
+      spriteID: 0fcfdac7dd58ef3c0800000000000000
+      internalID: -4323871405903053584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_3
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 536
-        width: 300
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d4155b1f5a13f8c0800000000000000
-      internalID: -3966797851000498992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _oom1_S1NPC_4
+      name: Room1_NPC_2
       rect:
         serializedVersion: 2
         x: 1200
-        y: 536
-        width: 300
-        height: 134
+        y: 1076
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72f8b1b662ead12d0800000000000000
-      internalID: -3306295071391117529
+      spriteID: bc4e9d0bb33370690800000000000000
+      internalID: -7636078311720229685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_5
-      rect:
-        serializedVersion: 2
-        x: 1500
-        y: 536
-        width: 300
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fc16197c32951e80800000000000000
-      internalID: -8208493957385675532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _oom1_S1NPC_6
+      name: Room1_NPC_3
       rect:
         serializedVersion: 2
         x: 1800
-        y: 536
-        width: 300
-        height: 134
+        y: 1076
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5afcf56617f288830800000000000000
-      internalID: 4073558027051978661
+      spriteID: 231ea083e69939da0800000000000000
+      internalID: -5939234784905862862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_7
+      name: Room1_NPC_4
       rect:
         serializedVersion: 2
-        x: 2100
-        y: 536
-        width: 300
-        height: 134
+        x: 2400
+        y: 1076
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae51ef6fd9bc92e60800000000000000
-      internalID: 7938099697531360746
+      spriteID: 806c039d6423a66e0800000000000000
+      internalID: -1843605817581844984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_8
+      name: Room1_NPC_5
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1076
+        width: 600
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bd711f47b3c4310800000000000000
+      internalID: 1390551758397758348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room1_NPC_6
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1076
+        width: 600
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4b8e5f961b2a190800000000000000
+      internalID: -7952598923327523650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room1_NPC_7
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1076
+        width: 600
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b6d7e4fdcf83240800000000000000
+      internalID: 4771841841223789394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room1_NPC_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 402
-        width: 300
-        height: 134
+        y: 807
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9da305249bc010470800000000000000
-      internalID: 8358976373197388505
+      spriteID: 5eeb746c90e2c2e10800000000000000
+      internalID: 2174163339629280997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_9
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 402
-        width: 300
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 550565e8262785e40800000000000000
-      internalID: 5645387900529299541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _oom1_S1NPC_10
+      name: Room1_NPC_9
       rect:
         serializedVersion: 2
         x: 600
-        y: 402
-        width: 300
-        height: 134
+        y: 807
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f9be934313a9ce60800000000000000
-      internalID: 7983091117625096688
+      spriteID: 57ffe6ee96d984770800000000000000
+      internalID: 8595292967133970293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_11
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 402
-        width: 300
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b84fd685c2e38bf30800000000000000
-      internalID: 4591488180287304843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _oom1_S1NPC_12
+      name: Room1_NPC_10
       rect:
         serializedVersion: 2
         x: 1200
-        y: 402
-        width: 300
-        height: 134
+        y: 807
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c15795dc2446e010800000000000000
-      internalID: 1217735708603011524
+      spriteID: b9d0cd3431928d920800000000000000
+      internalID: 3015205113244159387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_13
-      rect:
-        serializedVersion: 2
-        x: 1500
-        y: 402
-        width: 300
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 967bfba4a290c4c80800000000000000
-      internalID: -8337278732922275991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _oom1_S1NPC_14
+      name: Room1_NPC_11
       rect:
         serializedVersion: 2
         x: 1800
-        y: 402
-        width: 300
-        height: 134
+        y: 807
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e07c4b748d84b240800000000000000
-      internalID: 4806622302454968551
+      spriteID: 8f25dfaaf3a51af50800000000000000
+      internalID: 6890888134351737592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_15
+      name: Room1_NPC_12
       rect:
         serializedVersion: 2
-        x: 2100
-        y: 402
-        width: 300
-        height: 134
+        x: 2400
+        y: 807
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3614b9e5baf90720800000000000000
-      internalID: 2813055101486503484
+      spriteID: 230c2b1e607c912c0800000000000000
+      internalID: -4460315123563446222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_16
+      name: Room1_NPC_13
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 807
+        width: 600
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17483f3363300eb10800000000000000
+      internalID: 2008608965141955697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room1_NPC_14
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 807
+        width: 600
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a7549ccd700dca0800000000000000
+      internalID: -5994282459179156878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room1_NPC_15
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 807
+        width: 600
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5859b62b2d3d700800000000000000
+      internalID: 564026042102416879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room1_NPC_16
       rect:
         serializedVersion: 2
         x: 0
-        y: 268
-        width: 300
-        height: 134
+        y: 538
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 147a2595fdd0fff60800000000000000
-      internalID: 8070184310198675265
+      spriteID: 1bb305a6048f58a80800000000000000
+      internalID: -8465086969027740751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_17
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 268
-        width: 300
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6bdf9bcaea70d6a90800000000000000
-      internalID: -7319185372603613770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _oom1_S1NPC_18
+      name: Room1_NPC_17
       rect:
         serializedVersion: 2
         x: 600
-        y: 268
-        width: 300
-        height: 134
+        y: 538
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f3a5149c961b7210800000000000000
-      internalID: 1331682976573268981
+      spriteID: 16c94c9d66e7b5520800000000000000
+      internalID: 2691884182489308257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_19
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 268
-        width: 300
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6df97202e75adb70800000000000000
-      internalID: 8924542239803833708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _oom1_S1NPC_20
+      name: Room1_NPC_18
       rect:
         serializedVersion: 2
         x: 1200
-        y: 268
-        width: 300
-        height: 134
+        y: 538
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1086729889f7f9260800000000000000
-      internalID: 7106539030126749697
+      spriteID: 638993491f41035c0800000000000000
+      internalID: -4237864221549160394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_21
-      rect:
-        serializedVersion: 2
-        x: 1500
-        y: 268
-        width: 300
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11dd6836a609abd20800000000000000
-      internalID: 3295104863985655057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _oom1_S1NPC_22
+      name: Room1_NPC_19
       rect:
         serializedVersion: 2
         x: 1800
-        y: 268
-        width: 300
-        height: 134
+        y: 538
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9a8a29c4c0ca4540800000000000000
-      internalID: 4993015088314747546
+      spriteID: 33d3eb8ddf80c6830800000000000000
+      internalID: 4065634449964809523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_23
+      name: Room1_NPC_20
       rect:
         serializedVersion: 2
-        x: 2100
-        y: 268
-        width: 300
-        height: 134
+        x: 2400
+        y: 538
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 266b302f0d82bde60800000000000000
-      internalID: 7988023241950344802
+      spriteID: feac0558f9cc448e0800000000000000
+      internalID: -1710016972985414929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_24
+      name: Room1_NPC_21
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 538
+        width: 600
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef1f3d5965126ca0800000000000000
+      internalID: -6025229809188134935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room1_NPC_22
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 538
+        width: 600
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8b01d916567e600800000000000000
+      internalID: 497477753769081080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room1_NPC_23
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 538
+        width: 600
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7501d0d05a5d074d0800000000000000
+      internalID: -3138774035411955625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room1_NPC_24
       rect:
         serializedVersion: 2
         x: 0
-        y: 134
-        width: 300
-        height: 134
+        y: 269
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c25a146776409c460800000000000000
-      internalID: 7262340716523791660
+      spriteID: 3bb91b09f8ac93f30800000000000000
+      internalID: 4555895216018660275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_25
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 134
-        width: 300
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4629eb4c484fbe20800000000000000
-      internalID: 3368490538824705611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _oom1_S1NPC_26
+      name: Room1_NPC_25
       rect:
         serializedVersion: 2
         x: 600
-        y: 134
-        width: 300
-        height: 134
+        y: 269
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a52b2daa3714f7750800000000000000
-      internalID: 6304829968384963162
+      spriteID: 8c1823e9c2cd108a0800000000000000
+      internalID: -6340544716170165816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_27
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 134
-        width: 300
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 349369df23246bc80800000000000000
-      internalID: -8307379675868022461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _oom1_S1NPC_28
+      name: Room1_NPC_26
       rect:
         serializedVersion: 2
         x: 1200
-        y: 134
-        width: 300
-        height: 134
+        y: 269
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d75498fa67b4fd570800000000000000
-      internalID: 8493590395367277949
+      spriteID: 62ce8bc3096f0c2e0800000000000000
+      internalID: -2107413526254916570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_29
-      rect:
-        serializedVersion: 2
-        x: 1500
-        y: 134
-        width: 300
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fb876f7a371be3e0800000000000000
-      internalID: -2023498067559871498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _oom1_S1NPC_30
+      name: Room1_NPC_27
       rect:
         serializedVersion: 2
         x: 1800
-        y: 134
-        width: 300
-        height: 134
+        y: 269
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f517fb1a07c8961f0800000000000000
-      internalID: -1051154622636396193
+      spriteID: 051cdad51c9a26b00800000000000000
+      internalID: 820404730100302160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_31
+      name: Room1_NPC_28
       rect:
         serializedVersion: 2
-        x: 2100
-        y: 134
-        width: 300
-        height: 134
+        x: 2400
+        y: 269
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ac4fc21a27a9add0800000000000000
-      internalID: -2474262721117336414
+      spriteID: 5a724327314897f20800000000000000
+      internalID: 3420910611019868069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _oom1_S1NPC_32
+      name: Room1_NPC_29
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 269
+        width: 600
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19db41c9aff843030800000000000000
+      internalID: 3473559519132695953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room1_NPC_30
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 269
+        width: 600
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf6ce5661f4637f0800000000000000
+      internalID: -633231739981107273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room1_NPC_31
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 269
+        width: 600
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8db4db1280422e0800000000000000
+      internalID: -2151585780973446938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room1_NPC_32
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 300
-        height: 134
+        width: 600
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4ab3a5617994caa0800000000000000
-      internalID: -6141615279510930868
+      spriteID: d4ceb095ef6b7e270800000000000000
+      internalID: 8279787643475848269
       vertices: []
       indices: 
       edges: []
