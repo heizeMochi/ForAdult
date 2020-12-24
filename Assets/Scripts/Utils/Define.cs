@@ -14,5 +14,7 @@ public class Define
         NONE,
         Beg,
         Bed,
+        Guitar,
+        Suit,
     }
 }

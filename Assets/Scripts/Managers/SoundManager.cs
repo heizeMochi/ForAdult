@@ -48,4 +48,19 @@ public class SoundManager
         BGMSource.volume = vol;
         BGMSource.Play();
     }
+
+    public void SoundPlay(string name, float vol = 1)
+    {
+        if (SoundSource.isPlaying)
+            return;
+        SoundSource.clip = SoundList[name];
+        SoundSource.loop = true;
+        SoundSource.volume = vol;
+        SoundSource.Play();
+    }
+
+    public void SoundStop()
+    {
+        SoundSource.Stop();
+    }
 }

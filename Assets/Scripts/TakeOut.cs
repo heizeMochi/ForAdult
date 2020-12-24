@@ -30,8 +30,8 @@ public class TakeOut : MonoBehaviour
             case Define.Present.Beg:
                 name = "새 가방";
                 break;
-            case Define.Present.Bed:
-                name = "침대";
+            case Define.Present.Guitar:
+                name = "기타";
                 break;
         }
         return name;

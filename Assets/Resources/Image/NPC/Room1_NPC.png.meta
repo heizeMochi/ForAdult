@@ -245,8 +245,8 @@ TextureImporter:
       name: Room1_NPC_1
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1076
+        x: 603
+        y: 1079
         width: 600
         height: 269
       alignment: 0

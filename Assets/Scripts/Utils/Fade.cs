@@ -32,6 +32,7 @@ public class Fade : MonoBehaviour
                 {
                     state = Define.Fade.FadeOUT;
                     SceneManager.LoadScene(SceneName);
+                    Managers.Sound.SoundStop();
                 }
                 break;
             case Define.Fade.FadeOUT:

@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour, IPointerDownHandler, IPointerUpHa
 {
     [SerializeField]
     Player player;
+    Animator anim;
     public float speed;
 
     bool rightMove;
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour, IPointerDownHandler, IPointerUpHa
     {
         if (!player.gameObject.activeSelf)
             player.gameObject.SetActive(true);
+        anim = player.GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -28,6 +30,7 @@ public class PlayerController : MonoBehaviour, IPointerDownHandler, IPointerUpHa
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        anim.SetBool("Walking", true);
         if (gameObject.name.Contains("LeftMove"))
             leftMove = true;
         else if (gameObject.name.Contains("RightMove"))
@@ -41,6 +44,7 @@ public class PlayerController : MonoBehaviour, IPointerDownHandler, IPointerUpHa
 
     void RightMove()
     {
+        player.transform.localScale = new Vector3(1, 1, 1);
         if (player.cling)
         {
             player.rigid.velocity = Vector2.down * speed * Time.deltaTime;
@@ -55,6 +59,7 @@ public class PlayerController : MonoBehaviour, IPointerDownHandler, IPointerUpHa
 
     void LeftMove()
     {
+        player.transform.localScale = new Vector3(-1, 1, 1);
         if (player.cling)
         {
             player.rigid.velocity = Vector2.up * speed * Time.deltaTime;
@@ -65,6 +70,7 @@ public class PlayerController : MonoBehaviour, IPointerDownHandler, IPointerUpHa
 
     void StopMove()
     {
+        anim.SetBool("Walking", false);
         rightMove = false;
         leftMove = false;
         player.rigid.velocity = Vector2.zero;

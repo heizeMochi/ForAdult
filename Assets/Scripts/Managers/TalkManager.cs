@@ -27,6 +27,9 @@ public class TalkManager : MonoBehaviour
 
     public void Talk(string _name, string _context)
     {
+        if (Managers.Game.chat)
+            return;
+        Managers.Game.chat = true;
         if (background == null)
             Init();
         background.SetActive(true);
@@ -35,6 +38,9 @@ public class TalkManager : MonoBehaviour
 
     public void Talk(string _name, List<string> _context)
     {
+        if (Managers.Game.chat)
+            return;
+        Managers.Game.chat = true;
         if (background == null)
             Init();
         background.SetActive(true);
@@ -43,8 +49,12 @@ public class TalkManager : MonoBehaviour
 
     public void Talk(List<string> _name, List<string> _context)
     {
+        if (Managers.Game.chat)
+            return;
+        Managers.Game.chat = true;
         if (background == null)
             Init();
+        background.SetActive(true);
         StartCoroutine(TalkIndex(_name, _context));
     }
 
@@ -68,6 +78,7 @@ public class TalkManager : MonoBehaviour
             yield return new WaitForSeconds(0.2f * _context.Count);
             yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
         }
+        CloseText();
     }
 
     IEnumerator TalkCoroutine(string _name, string _context)
@@ -88,6 +99,7 @@ public class TalkManager : MonoBehaviour
 
     public void CloseText()
     {
+        Managers.Game.chat = false;
         background.SetActive(false);
     }
 }

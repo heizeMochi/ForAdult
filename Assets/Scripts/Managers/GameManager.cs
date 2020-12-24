@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager
 {
+    public bool chat = false;
     public Define.Present Present = Define.Present.NONE;
     public string NPCName = "";
 
